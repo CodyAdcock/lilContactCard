@@ -38,7 +38,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Ry-Yr-UKS">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Ry-Yr-UKS">
                                         <rect key="frame" x="0.0" y="150" width="300" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -86,7 +86,7 @@
                         <outlet property="emailTextField" destination="vTj-GC-2Ni" id="JF1-Dj-bCN"/>
                         <outlet property="firstNameTextField" destination="iss-IH-oDE" id="HQT-4k-PlV"/>
                         <outlet property="lastNameTextField" destination="mqm-UH-vDQ" id="1kC-BX-z6H"/>
-                        <outlet property="phoneNumberTextField" destination="7Ry-Yr-UKS" id="SHB-O8-Xg6"/>
+                        <outlet property="passWordTextField" destination="7Ry-Yr-UKS" id="SHB-O8-Xg6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

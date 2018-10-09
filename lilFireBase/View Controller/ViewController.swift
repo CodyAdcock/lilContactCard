@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var firstNameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
-    @IBOutlet weak var phoneNumberTextField: UITextField!
+    @IBOutlet weak var passWordTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         firstNameTextField.text = ""
         lastNameTextField.text = ""
         emailTextField.text = ""
-        phoneNumberTextField.text = ""
+        passWordTextField.text = ""
         
         
     }
